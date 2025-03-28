@@ -21,6 +21,8 @@ const [sidebar, setSidebar]= React.useState(false)
                         <br /> Always eager to build innovative and scalable web applications.</p>
                         <button data-aos="fade-up" data-aos-delay="900" className=' border border-white px-4 py-2 rounded-lg'>My Projects</button>
                     </div>
+
+
                     <div className="img">
                         <img data-aos="zoom-in"  src={HeroImg} alt="berry" className='w-[400px] img-shadow img-glow relative z-[1]'/>
                     </div>
