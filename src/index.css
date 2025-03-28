@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      
+    }
+    .img-shadow {
+        filter: drop-shadow(20px 30px 25px rgba(0, 0, 0, 0.3));
+      }
+      .img-glow {
+        filter: drop-shadow(0 0 20px #A67C52);
+      }
+}
